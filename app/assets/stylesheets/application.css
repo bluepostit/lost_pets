@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+/* Available after running `yarn add bootstrap`: */
+@import "bootstrap/scss/bootstrap";
+
+.list-panel {
+    margin-top: 3%;
+    max-height: 80%;
+    overflow-y: auto;
+}

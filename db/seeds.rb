@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'date'
+
+Pet.create([
+  {
+    name: 'Fluffy',
+    species: 'dog',
+    found_on: Date.new(2020, 3, 20),
+    address: 'Tel Aviv'
+  }
+])
+
+puts "All done"
